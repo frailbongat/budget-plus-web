@@ -10,6 +10,7 @@ export default {
 				secondary: '#53BB53',
 				grey: '#14142B',
 				'grey-body': '#4E4B66',
+				'grey-label': '#6E7191',
 				line: '#D9DBE9'
 			}
 		}

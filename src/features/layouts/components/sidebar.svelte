@@ -10,16 +10,19 @@
 		<li>
 			<a
 				href="/"
-				class="flex h-[42px] px-4 items-center bg-primary text-white rounded-[10px] gap-3"
+				class="flex h-[42px] dark:px-4 items-center dark:bg-primary text-primary dark:text-white rounded-[10px] gap-3 text-base leading-[26px] font-bold"
 			>
-				<Icon name="Grid" size={20} />
-				<Text size="sm" bold>Dashboard</Text>
+				<Icon name="Grid" size={20} color="text-primary dark:text-white " />
+				Dashboard
 			</a>
 		</li>
 		<li>
-			<a href="/" class="flex h-[42px] px-4 items-center text-white rounded-[10px] gap-3">
-				<Icon name="Settings" size={20} />
-				<Text size="sm" bold>Settings</Text>
+			<a
+				href="/"
+				class="flex h-[42px] dark:px-4 items-center text-grey-label dark:text-white rounded-[10px] gap-3 text-base leading-[26px] font-bold"
+			>
+				<Icon name="Settings" size={20} color="text-grey-label dark:text-white" />
+				Settings
 			</a>
 		</li>
 	</ul>

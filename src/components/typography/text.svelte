@@ -16,7 +16,7 @@
 	class={classNames(
 		'tracking-[0.75px]',
 		sizeClass[size],
-		bold ? 'text-grey-body dark:text-line' : 'text-grey dark:text-white',
+		bold ? 'text-grey dark:text-white font-bold' : 'text-grey-body dark:text-line',
 		$$props.class
 	)}
 >

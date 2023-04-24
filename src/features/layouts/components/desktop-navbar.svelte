@@ -6,7 +6,7 @@
 <div class="items-center justify-end gap-4 hidden md:flex mb-10">
 	<a href="/" class="flex gap-3 items-center">
 		<Icon name="Chat Bubbles Question" color="text-grey-label dark:text-line" />
-		<p class="text-base leading-[26px] text-grey-label dark:text-line">Need Help?</p>
+		<Text size="sm" color="label">Need Help?</Text>
 	</a>
 	<button on:click={toggleTheme} class="p-4">
 		<Icon name="Moon" class="block dark:hidden" color="text-grey-label dark:text-line" />
@@ -14,7 +14,7 @@
 	</button>
 	<button class="flex gap-3 items-center">
 		<img src="/avatar.jpg" alt="User avatar" class="w-8 h-8 rounded-full" />
-		<Text size="xs"
+		<Text size="xs" color="body"
 			>Gautham Reddy
 			<Icon
 				name="Chevron Down"
